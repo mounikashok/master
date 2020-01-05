@@ -1,0 +1,26 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'FacilityBooking' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for FacilityBooking
+
+  target 'FacilityBookingTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'FacilityBookingUITests' do
+    # Pods for testing
+  end
+pod 'IQKeyboardManagerSwift', '6.0.4'
+pod 'GoogleSignIn'
+pod 'FacebookCore'
+pod 'FacebookLogin'
+pod 'FacebookShare'
+pod 'SDWebImage', '~> 4.0'
+pod 'GoogleMaps'
+
+end
